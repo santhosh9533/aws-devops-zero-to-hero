@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_santhosh9533_aws_devops_zero_to_hero_1701878970487-pr-trigger-input-set
+  identifier: Build_santhosh9533_aws_devops_zero_to_hero_1701878970487prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_santhosh9533_aws_devops_zero_to_hero_1701878970487
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
